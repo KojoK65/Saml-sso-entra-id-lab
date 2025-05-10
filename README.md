@@ -1,5 +1,5 @@
 # Saml-sso-entra-id-lab
-# 📦 Box SSO Integration with Microsoft Entra ID (Azure AD)
+## 📦 Box SSO Integration with Microsoft Entra ID (Azure AD)
 
 ## 🎯 Project Objective
 This project demonstrates how to configure Single Sign-On (SSO) between Microsoft Entra ID and the Box cloud application using the SAML 2.0 protocol. The goal was to practice integrating a real SaaS application with Entra ID and simulate the authentication flow.
@@ -13,8 +13,9 @@ This project demonstrates how to configure Single Sign-On (SSO) between Microsof
 - Searched for **Box** in the application gallery
 - Selected and created the Box app in my tenant
 
-📸 *Screenshot: Box app overview page (Enterprise Apps > Box)*  
-![Box App Overview](screenshots/box-app-overview.png)
+Box app overview page
+
+<img width="1280" alt="Screen Shot 2025-05-09 at 6 08 33 PM" src="https://github.com/user-attachments/assets/aeb153e2-4bb9-456d-98a7-8ff695d156d6" />
 
 ---
 
@@ -28,8 +29,10 @@ This project demonstrates how to configure Single Sign-On (SSO) between Microsof
 - Left Relay State and Logout URL blank
 - Verified default attribute & claim mappings were pre-filled correctly
 
-📸 *Screenshot: Basic SAML Configuration + Attribute & Claim Mappings (captured together)*  
-![SAML Config and Claims](screenshots/saml-config-and-claims.png)
+ Basic SAML Configuration + Attribute & Claim Mappings  
+
+ <img width="1280" alt="Screen Shot 2025-05-09 at 6 23 21 PM" src="https://github.com/user-attachments/assets/01422504-c257-43b0-9352-00507dcecf3a" />
+
 
 ---
 
@@ -37,8 +40,10 @@ This project demonstrates how to configure Single Sign-On (SSO) between Microsof
 - Went to the **Users and Groups** tab for the Box app
 - Assigned two test users created in my Entra tenant
 
-📸 *Screenshot: Assigned users screen*  
-![User Assignment](screenshots/user-assignment.png)
+Assigned users screen
+
+<img width="1280" alt="Screen Shot 2025-05-09 at 6 27 56 PM" src="https://github.com/user-attachments/assets/916e3942-53ca-461b-97e0-29b0bf790a25" />
+
 
 ---
 
@@ -47,8 +52,10 @@ This project demonstrates how to configure Single Sign-On (SSO) between Microsof
 - Logged in with a test user
 - Was redirected to Box, confirming the SAML assertion was successfully accepted
 
-📸 *Screenshot: SSO test result showing redirection to Box*  
-![SSO Test Result](screenshots/sso-test-result.png)
+SSO test result showing redirection to Box
+
+<img width="1280" alt="Screen Shot 2025-05-09 at 6 26 08 PM" src="https://github.com/user-attachments/assets/b51dc582-03a9-4aa1-a525-ba82e0d04b22" />
+
 
 ---
 
