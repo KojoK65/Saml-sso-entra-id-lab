@@ -2,7 +2,7 @@
 
 
 ## 🎯 Project Objective
-This project demonstrates how to configure Single Sign-On (SSO) between Microsoft Entra ID and the Box cloud application using the SAML 2.0 protocol. The goal was to practice integrating a real SaaS application with Entra ID and simulate the authentication flow.
+This project demonstrates how to configure Single Sign-On (SSO) between Microsoft Entra ID and a third-party SaaS application using the SAML 2.0 protocol. The goal was to practice integrating an enterprise application with Entra ID and simulate a federated authentication flow.
 
 ---
 
