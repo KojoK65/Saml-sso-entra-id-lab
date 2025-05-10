@@ -1,5 +1,5 @@
-# Saml-sso-entra-id-lab
-## 📦 Box SSO Integration with Microsoft Entra ID (Azure AD)
+# 🔐 SAML SSO Integration with Microsoft Entra ID 
+
 
 ## 🎯 Project Objective
 This project demonstrates how to configure Single Sign-On (SSO) between Microsoft Entra ID and the Box cloud application using the SAML 2.0 protocol. The goal was to practice integrating a real SaaS application with Entra ID and simulate the authentication flow.
@@ -60,7 +60,6 @@ SSO test result showing redirection to Box
 ---
 
 ## 📈 What I Learned
-- How to integrate a real SaaS application using SAML SSO
-- Where and how to configure SAML URLs in Microsoft Entra
-- How user identity data (claims) is passed during authentication
-- How to assign users to an enterprise app and test the full sign-on process
+- How to configure SAML SSO for a SaaS application
+- Where to enter SAML URLs and manage claims in Microsoft Entra ID
+- How to assign users and simulate real-world federated login flows
